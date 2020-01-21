@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="shortcut icon" type="x-icon" href="favicon.ico"/>
 </head>
 <body style="background-color: #e6ffff">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
@@ -29,7 +30,7 @@
             <div class="container">
                 <div class="about-me">
                     <p>Hi! My name is <strong>Miguel Angel</strong>, I'm a serious person, committed to what I do, responsible and every day I decide to learn something new, and what I have already learned to keep updating myself, I consider myself an orderly
-                        person by always keeping my work in order and never forget anything and for something I need to do always like to have control and prevent if there will be some setback with it.<br></p>
+                        person by always keeping my work in order and never forget anything and for something I need to do always like to have control and prevent if there will be some setback with it. I'm currently learn about React JS.<br></p>
                 </div>
             </div><a class="btn btn-outline-primary" role="button" href="#" onclick="downloadCV_EN()">Download Resume PDF</a><a class="btn btn-outline-primary" role="button" href="#" onclick="downloadCV_ES()">Descargar Currículum PDF</a></section>
         <section class="portfolio-block photography">
@@ -106,7 +107,7 @@
     <footer class="page-footer">
         <div class="container">
             <div class="social-icons"><a href="https://www.linkedin.com/in/mquezadagalvan95" target="_blank" style="background-color:blue"><i class="icon ion-social-linkedin-outline"></i></a><a href="https://github.com/AngelQuezada" target="_blank" style="background-color: black;"><i class="icon ion-social-github-outline"></i></a></div>
-            <p><i class="fa fa-copyright" aria-hidden="true">Miguel Angel Quezada Galvan V1.0* <strong>Update: 16-Enero-2020</strong></i></p>
+            <p><i class="fa fa-copyright" aria-hidden="true">Miguel Angel Quezada Galvan V1.0* <strong>Update: 21-Enero-2020</strong></i></p>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
@@ -116,13 +117,13 @@
 </body>
 <script>
     let contacto = () => {
-        window.open("contact.html");
+        window.location.replace(`contact.html`);
     }
     let downloadCV_ES = () => {
-        window.open("assets/docs/Curriculum_QuezadaGalvanMiguelAngel.pdf");
+        window.open("assets/docs/es/Curriculum_QuezadaGalvanMiguelAngel.pdf");
     }
     let downloadCV_EN = () => {
-        alert("Aun no disponible");
+        window.open("assets/docs/en/Resume_QuezadaGalvanMiguelAngel.pdf");
     }
 </script>
 </html>
